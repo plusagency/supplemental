@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="Plus Agency & Supplement Magazine">
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://fast.fonts.net/jsapi/77d1eaf2-b209-4b3a-bed6-3b0bff03438e.js"></script>
+<!-- CSS -->
+<style>
+    @charset "UTF-8";
+
+
+    
+body, html {
+    
+	margin:0px;
+	padding:0px;
+	background-color:#F2F2F0;
+	text-align:center;
+	
+}
+    
+    
+p {
+    
+	font-family:'Centaur W01';	
+	font-size:1em;
+	line-height:1.4em;
+	letter-spacing:0.01em;
+		
+}
+
+
+h1, h2 {
+    
+	font-family:'Centaur W01 Bold Italic';
+	font-size:1.4em;
+	font-style:italic;
+	letter-spacing:0.02em;
+	
+}
+    
+
+.header {
+    
+	top:40px;	
+	padding-top:30px;
+	background-color:#F2F2F0;
+	
+	
+}
+
+
+#suplogo {
+    
+	background-image: url(images/Shared/Supplement_Logo.png);
+	background-size:200px, 49px !important;
+	width:200px;
+	height:49px;
+	top:40px;	
+	margin-left:auto;
+	margin-right:auto;	
+	
+}
+
+
+.container {
+    
+	text-align:center;
+	height: 100%;
+	width: 100%;
+	margin:0px;
+	padding:0px;
+   
+	
+}
+
+.infoHolder {
+	
+	text-align:center;
+	padding:0px;
+	max-width:80%;
+	margin-left:auto;
+	margin-right:auto;
+    float: none;
+    position: relative;
+    display: block;
+    
+}
+    
+.issueHolder {
+    
+	margin:10px;
+	text-align:center;
+	padding:0px;
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+    float: none;
+    
+}
+
+.infoHolder p {	
+    
+	font-style:normal;	
+	font-size:0.9em;
+	max-width:700px;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:30px;
+	padding-right:30px;
+    
+}
+    
+
+
+.footer {
+    
+	margin-top:100px;
+	width:100%;
+	height:auto;
+	border-top:1px solid; 
+	font-family: 'Source Code Pro', 400;
+    
+}
+
+.footer a:link, a:visited {
+    
+	color:#000;
+	text-decoration:none;
+	
+}
+
+.footer p {
+    
+	font-family: 'Source Code Pro', 400;
+	font-size:0.7em;
+	font-style:normal;
+	letter-spacing:0.01em;
+    
+}
+
+.footer a:hover {
+    
+	color:#000;
+	text-decoration:line-through;
+	
+}
+
+
+.address  {
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', 400;
+	width:30%;
+	margin:0px;
+	padding-left:20px;
+	float:left;	
+	text-align:left;
+	clear:both;
+    
+}
+    
+    
+#social  {
+    text-transform: lowercase;
+    font-family: 'Source Code Pro', 400;
+	width:30%;
+	margin:0 auto;
+	padding-left:20px;
+	padding-right:20px;
+	text-align:left;
+	display: inline-block;
+	clear:both;
+    
+}
+    
+button   {
+        
+    border: 2px solid #111;
+    width: auto;
+    height: 35px;
+    padding: 0 13px;
+    background-color:rgb(0,0,0,0);
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 0.25em;  
+        
+        
+}
+    
+ button:hover   {
+    -webkit-transition:all 0.2s ease-out;
+    -moz-transition:all 0.2s ease-out;
+    -o-transition:all 0.2s ease-out;
+    transition:all 0.2s ease-out;
+     
+    background-color: #333;
+    transform:scale(1.1, 1.1);
+     color: #fff;
+        
+        
+}   
+   
+
+
+/* Retina-specific stuff here */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 640px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+    
+ { 
+    	
+#suplogo {
+	background-size:200px 50px;
+	width:200px;
+	height:50px;	
+	top:40px;
+	opacity:1;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+     
+     
+p {
+    
+	font-size:1.3em;	
+	letter-spacing:0.03em;
+	line-height:1.4em;
+	
+}
+
+
+h2 {
+    
+	font-size:1.5em;
+	letter-spacing:0.02em;
+	
+}
+
+
+.footer p {
+    
+	font-family: 'Source Code Pro', 400;
+	font-size:14px;
+	font-style:normal;
+	letter-spacing:-0.05em;
+    text-align:center !important;
+    
+}
+;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 480px){
+
+
+#suplogo {
+    
+	width:200px;
+	height:50px;	
+	background-size:200px 50px;
+	background-repeat:no-repeat;
+	top:20px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+p {
+    
+	font-size:1.1em;	
+	letter-spacing:0.03em;
+	line-height:1.4em;
+    
+}
+
+h2 {	
+    
+	font-size:1.5em;
+	letter-spacing:0.02em;	
+    
+}
+
+
+.address  {
+    
+	width:100%;
+	margin:0px;
+	padding-left:0px;
+	float:left;	
+	text-align:center !important;
+	clear:both;
+    
+}
+    
+#social  {
+    
+	width:100%;
+	margin:0 auto;
+	padding-left:0px;
+	text-align:left;
+	float:left;
+	display: inline-block;
+	clear:both;
+    text-align:center !important;
+    
+}
+    
+
+
+
+}
+
+	
+
+ 
+    </style>
+
+
+<title>Supplement</title>   
+</head>
+
+<body> 
+<div class="container">
+    <table width="100%" class="header">
+        <tr><td></td>
+            <td>
+  
+    <div id="suplogo"></div>
+    
+            </td><td></td> 
+        </tr>
+    </table>
+    <table width="100%">
+        <tr>
+            <td>
+                
+  <div class="infoHolder"><div><h1>Supplement Issue No. 2</h1>
+      <div class="issueHolder"><img src="images/issue_1/SUPP_COVER_2.jpg" width="100%" alt=""/></div>
+      </div>
+<p>We are excited to announce the launch of Supplement Issue No. 2 which hits the newsstands today. Independent, creative and with its content uninhibited by commercial constraints, Supplement is curated as if it were a gallery, presenting a neutral aesthetic allowing the words and images commissioned by the magazine from leading figures in the fashion, art and design communities to live as if they we’re being presented in a gallery setting.  </p>
+                </div>
+  
+      <div class="issueHolder">
+          <div><img src="images/issue_1/SUPP_CONTENT_1.jpg" width="100%" alt=""/></div>
+    </div>
+      
+      <div class="infoHolder">
+<p>We look back at the heavily sexual, utterly heartfelt work of the artist David Wojnarowicz; we proudly reproduce new, deeply lovely photographs by Bill Henson and we speak to the songwriter Julia Holter. Swans Founder member and singer Michael Gira describes his relationship with the visual arts; Andrew Mueller gets in among the birthers and truthers of paranoid American politics and Eliza Robertson discusses her path from vigilante would-be lawyer to award-winning short-story writer.</p></div>
+ 
+      
+  <div class="issueHolder">
+    <div><img src="images/issue_1/SUPP_CONTENT_2.jpg" width="100%" alt=""/></div>
+  </div>
+      <div class="infoHolder">
+<p>Elsewhere, Reto Schmid and Elizabeth Fraser-Bell pin down a floral fashion story; Jan Lehner takes the model Hayett McCarthy for a twilight trip along the east coast of England; Clare Shilland and Michele Rafferty offer a late-80s shoe gazers’ take on this season’s Marni men’s collection; Benjamin Vnuk and Joanna Schlenzka fool around with the act of dressing and undressing, channelling the spirit of Mark Borthwick and Peter Lindbergh through all those layers and fastenings and the late, great Robert Mapplethorpe offers us the definitive statement when it comes to art and footwear fetishism.</p></div>
+                
+                <div class="issueHolder">
+    <div><img src="images/issue_1/SUPP_CONTENT_3.jpg" width="100%" alt=""/></div>
+  </div><div class="infoHolder">
+    <a href='http://www.supplementmagazine.co.uk' target='_blank'><button>BUY ISSUE 2 NOW</button></a>
+
+<br><br><p>For more information please contact Chris West</p></div>
+  <td></td>
+      </tr>
+    </table>
+        </div>
+<div class="footer">
+  <div class="address">
+    <p>Supplement Magazine<br>
+      2nd Floor, 53a Brewer Street<br>
+      London. W1F 9UH<br>
+      +44 (0) 20 7494 2221</p>
+  </div>
+  <div id="social">
+    <p><a href="mailto:contact@supplementmagazine.co.uk" target="_blank">contact@supplementmagazine.co.uk</a><br>
+      <br>
+      Instagram<br>
+      <a href="https://instagram.com/supplement_mag/" target="_blank">@supplement_mag</a></p>
+  </div><br><br> 
+</div>
+</body>
+</html>
